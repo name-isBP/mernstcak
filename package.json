@@ -2,9 +2,11 @@
   "name": "form-builder",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  
+    "scripts": {
+      "build": "react-scripts build"
+    },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
