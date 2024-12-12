@@ -2,11 +2,9 @@
   "name": "form-builder",
   "version": "1.0.0",
   "main": "index.js",
-  
-    "scripts": {
-      "build": "react-scripts build"
-    },
-  
+  "scripts": {
+    "build": "react-scripts build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,10 +12,25 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.8.4"
+    "mongoose": "^8.8.4",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "nodemon": "^3.1.7"
   },
-  "description": ""
+  "description": "",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
